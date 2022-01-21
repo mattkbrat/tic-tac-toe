@@ -1,3 +1,13 @@
+/**
+ * Matthew Bratrsovsky
+ * 1/20/22
+ *
+ * Tutorial followed:
+ * “Tutorial: Intro to React – React.”
+ * Accessed January 20, 2022. https://reactjs.org/tutorial/tutorial.html.
+ */
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -16,3 +26,13 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+/*
+TODO
+- [ ] Display the location for each move in the format (col, row) in the move history list.
+- [ ] Bold the currently selected item in the move list.
+- [ ] Rewrite Board to use two loops to make the squares instead of hardcoding them.
+- [ ] Add a toggle button that lets you sort the moves in either ascending or descending order.
+- [ ] When someone wins, highlight the three squares that caused the win.
+- [ ] When no one wins, display a message about the result being a draw.
+ */
